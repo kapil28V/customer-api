@@ -2,7 +2,7 @@ import json
 
 def get_customer(customer_id):
     customers = {
-        101: {"id": 101, "name": "Aarav Sharma", "status": "active"},
+        101: {"id": 101, "name": "Kapil Vyas", "status": "active"},
         102: {"id": 102, "name": "Priya Patel", "status": "active"}
     }
     return customers.get(customer_id, {"error": "Customer not found"})
