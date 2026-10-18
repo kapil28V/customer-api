@@ -4,7 +4,7 @@ from app import get_customer
 class TestCustomerApi(unittest.TestCase):
     def test_valid_customer(self):
         result = get_customer(101)
-        self.assertEqual(result["name"], "Aarav Sharma")
+        self.assertEqual(result["name"], "Kapil Vyas")
         self.assertEqual(result["status"], "active")
 
     def test_missing_customer(self):
